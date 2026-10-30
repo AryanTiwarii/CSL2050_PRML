@@ -1,0 +1,370 @@
+{
+  "q1_cv_original": {
+    "KNN (k=5)": {
+      "accuracy mean": 0.9339,
+      "accuracy std": 0.018,
+      "macro F1 mean": 0.6944,
+      "macro F1 std": 0.0396
+    },
+    "LogisticRegression": {
+      "accuracy mean": 0.96,
+      "accuracy std": 0.0099,
+      "macro F1 mean": 0.9098,
+      "macro F1 std": 0.0429
+    },
+    "RandomForest": {
+      "accuracy mean": 0.9861,
+      "accuracy std": 0.0099,
+      "macro F1 mean": 0.9763,
+      "macro F1 std": 0.0158
+    }
+  },
+  "q1_pca": {
+    "n_features": 77,
+    "k90": 31,
+    "k95": 36,
+    "k99": 44,
+    "chosen_k": 36,
+    "top5_ratio": [
+      0.099,
+      0.0764,
+      0.056,
+      0.0495,
+      0.0451
+    ],
+    "sweeps": 8
+  },
+  "q1_k_curve": [
+    {
+      "k": 2,
+      "model": "LogisticRegression",
+      "macro F1": 0.5568
+    },
+    {
+      "k": 2,
+      "model": "KNN (k=5)",
+      "macro F1": 0.645
+    },
+    {
+      "k": 2,
+      "model": "RandomForest",
+      "macro F1": 0.7281
+    },
+    {
+      "k": 5,
+      "model": "LogisticRegression",
+      "macro F1": 0.7511
+    },
+    {
+      "k": 5,
+      "model": "KNN (k=5)",
+      "macro F1": 0.7137
+    },
+    {
+      "k": 5,
+      "model": "RandomForest",
+      "macro F1": 0.8555
+    },
+    {
+      "k": 10,
+      "model": "LogisticRegression",
+      "macro F1": 0.7804
+    },
+    {
+      "k": 10,
+      "model": "KNN (k=5)",
+      "macro F1": 0.6852
+    },
+    {
+      "k": 10,
+      "model": "RandomForest",
+      "macro F1": 0.8488
+    },
+    {
+      "k": 15,
+      "model": "LogisticRegression",
+      "macro F1": 0.8198
+    },
+    {
+      "k": 15,
+      "model": "KNN (k=5)",
+      "macro F1": 0.7666
+    },
+    {
+      "k": 15,
+      "model": "RandomForest",
+      "macro F1": 0.8582
+    },
+    {
+      "k": 20,
+      "model": "LogisticRegression",
+      "macro F1": 0.8362
+    },
+    {
+      "k": 20,
+      "model": "KNN (k=5)",
+      "macro F1": 0.6801
+    },
+    {
+      "k": 20,
+      "model": "RandomForest",
+      "macro F1": 0.8625
+    },
+    {
+      "k": 25,
+      "model": "LogisticRegression",
+      "macro F1": 0.8582
+    },
+    {
+      "k": 25,
+      "model": "KNN (k=5)",
+      "macro F1": 0.6885
+    },
+    {
+      "k": 25,
+      "model": "RandomForest",
+      "macro F1": 0.8547
+    },
+    {
+      "k": 30,
+      "model": "LogisticRegression",
+      "macro F1": 0.8809
+    },
+    {
+      "k": 30,
+      "model": "KNN (k=5)",
+      "macro F1": 0.6797
+    },
+    {
+      "k": 30,
+      "model": "RandomForest",
+      "macro F1": 0.8529
+    },
+    {
+      "k": 40,
+      "model": "LogisticRegression",
+      "macro F1": 0.8952
+    },
+    {
+      "k": 40,
+      "model": "KNN (k=5)",
+      "macro F1": 0.6844
+    },
+    {
+      "k": 40,
+      "model": "RandomForest",
+      "macro F1": 0.8147
+    },
+    {
+      "k": 50,
+      "model": "LogisticRegression",
+      "macro F1": 0.9098
+    },
+    {
+      "k": 50,
+      "model": "KNN (k=5)",
+      "macro F1": 0.6944
+    },
+    {
+      "k": 50,
+      "model": "RandomForest",
+      "macro F1": 0.8334
+    },
+    {
+      "k": 77,
+      "model": "LogisticRegression",
+      "macro F1": 0.9098
+    },
+    {
+      "k": 77,
+      "model": "KNN (k=5)",
+      "macro F1": 0.6944
+    },
+    {
+      "k": 77,
+      "model": "RandomForest",
+      "macro F1": 0.8404
+    }
+  ],
+  "q1_cv_pca": {
+    "KNN (k=5)": {
+      "accuracy mean": 0.9183,
+      "accuracy std": 0.0218,
+      "macro F1 mean": 0.6737,
+      "macro F1 std": 0.0237
+    },
+    "LogisticRegression": {
+      "accuracy mean": 0.927,
+      "accuracy std": 0.0191,
+      "macro F1 mean": 0.8818,
+      "macro F1 std": 0.034
+    },
+    "RandomForest": {
+      "accuracy mean": 0.9652,
+      "accuracy std": 0.0184,
+      "macro F1 mean": 0.8588,
+      "macro F1 std": 0.1314
+    }
+  },
+  "q1_test": {
+    "LogisticRegression | original": {
+      "accuracy": 0.9646,
+      "balanced acc.": 0.9249,
+      "macro F1": 0.9113
+    },
+    "LogisticRegression | PCA k=36": {
+      "accuracy": 0.9293,
+      "balanced acc.": 0.9156,
+      "macro F1": 0.8402
+    },
+    "KNN (k=5) | original": {
+      "accuracy": 0.9325,
+      "balanced acc.": 0.7109,
+      "macro F1": 0.6993
+    },
+    "KNN (k=5) | PCA k=36": {
+      "accuracy": 0.9196,
+      "balanced acc.": 0.6924,
+      "macro F1": 0.6865
+    },
+    "RandomForest | original": {
+      "accuracy": 0.9904,
+      "balanced acc.": 0.9132,
+      "macro F1": 0.9483
+    },
+    "RandomForest | PCA k=36": {
+      "accuracy": 0.9646,
+      "balanced acc.": 0.8291,
+      "macro F1": 0.8853
+    }
+  },
+  "q1_corr": {
+    "mean_abs_corr_before": 0.09255297835490402,
+    "max_abs_corr_after": 1.2445454193570952e-14,
+    "var_before_total": 77.13414634146346,
+    "var_after_total": 73.34437814214662
+  },
+  "q2_lda": {
+    "eigvals": [
+      1586.8344,
+      15.2858,
+      7.8089,
+      1.2569
+    ],
+    "ratio": [
+      0.9849,
+      0.0095,
+      0.0048,
+      0.0008
+    ],
+    "n_components_95": 1,
+    "auto": {
+      "0.8": 1,
+      "0.9": 1,
+      "0.95": 1,
+      "0.99": 2
+    }
+  },
+  "q2_top_pc1": {
+    "condition_S": 0.0457,
+    "condition_NA": 0.045,
+    "formability_NA": 0.0394,
+    "formability_2": 0.0369,
+    "shape_COIL": 0.0323,
+    "shape_SHEET": 0.0323,
+    "temper_rolling_T": 0.0299,
+    "temper_rolling_NA": 0.0299
+  },
+  "q2_top_ld1": {
+    "family_TN": 0.5223,
+    "family_NA": 0.2565,
+    "family_ZS": 0.1858,
+    "surface_quality_NA": 0.0033,
+    "steel_K": 0.0023,
+    "hardness": 0.0022,
+    "ferro_Y": 0.0021,
+    "ferro_NA": 0.0021
+  },
+  "q2_table_acc": {
+    "PCA (4 PCs)": {
+      "KNN (k=5)": 0.9421,
+      "LogisticRegression": 0.7974
+    },
+    "LDA (4 LDs)": {
+      "KNN (k=5)": 0.9936,
+      "LogisticRegression": 0.9293
+    }
+  },
+  "q2_table_f1": {
+    "PCA (4 PCs)": {
+      "KNN (k=5)": 0.7203,
+      "LogisticRegression": 0.6534
+    },
+    "LDA (4 LDs)": {
+      "KNN (k=5)": 0.9518,
+      "LogisticRegression": 0.8697
+    }
+  },
+  "q2_roc": {
+    "1": {
+      "accuracy": 0.9304,
+      "micro AUC": 0.9947,
+      "macro AUC": 0.9648,
+      "AUC class 1": 1.0,
+      "AUC class 2": 0.9977,
+      "AUC class 3": 0.961,
+      "AUC class 5": 1.0,
+      "AUC class U": 0.8655
+    },
+    "2": {
+      "accuracy": 0.9565,
+      "micro AUC": 0.9931,
+      "macro AUC": 0.9974,
+      "AUC class 1": 0.9956,
+      "AUC class 2": 1.0,
+      "AUC class 3": 0.9914,
+      "AUC class 5": 1.0,
+      "AUC class U": 1.0
+    },
+    "3": {
+      "accuracy": 0.9739,
+      "micro AUC": 0.9985,
+      "macro AUC": 0.9979,
+      "AUC class 1": 1.0,
+      "AUC class 2": 1.0,
+      "AUC class 3": 0.9966,
+      "AUC class 5": 1.0,
+      "AUC class U": 0.9927
+    },
+    "4": {
+      "accuracy": 0.9826,
+      "micro AUC": 0.9997,
+      "macro AUC": 1.0,
+      "AUC class 1": 1.0,
+      "AUC class 2": 1.0,
+      "AUC class 3": 1.0,
+      "AUC class 5": 1.0,
+      "AUC class U": 1.0
+    },
+    "5": {
+      "accuracy": 0.9391,
+      "micro AUC": 0.9976,
+      "macro AUC": 0.9966,
+      "AUC class 1": 1.0,
+      "AUC class 2": 0.9968,
+      "AUC class 3": 0.9882,
+      "AUC class 5": 1.0,
+      "AUC class U": 0.9982
+    }
+  },
+  "q2_roc_mean": {
+    "accuracy": 0.9565,
+    "micro AUC": 0.9967,
+    "macro AUC": 0.9913,
+    "AUC class 1": 0.9991,
+    "AUC class 2": 0.9989,
+    "AUC class 3": 0.9874,
+    "AUC class 5": 1.0,
+    "AUC class U": 0.9713
+  }
+}

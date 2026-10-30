@@ -1,0 +1,3 @@
+[submodule "Traffic-Prediction"]
+	path = Traffic-Prediction
+	url = https://github.com/AryanTiwarii/Traffic-Prediction.git

@@ -1,0 +1,317 @@
+{
+  "q1_qda_params": [
+    {
+      "pair": "petal length \u00d7 petal width",
+      "class": "setosa",
+      "mean": [
+        1.471,
+        0.229
+      ],
+      "cov": [
+        [
+          0.0239,
+          0.0035
+        ],
+        [
+          0.0035,
+          0.0068
+        ]
+      ]
+    },
+    {
+      "pair": "petal length \u00d7 petal width",
+      "class": "versicolor",
+      "mean": [
+        4.311,
+        1.343
+      ],
+      "cov": [
+        [
+          0.2516,
+          0.0768
+        ],
+        [
+          0.0768,
+          0.0419
+        ]
+      ]
+    },
+    {
+      "pair": "petal length \u00d7 petal width",
+      "class": "virginica",
+      "mean": [
+        5.631,
+        2.071
+      ],
+      "cov": [
+        [
+          0.3169,
+          0.0492
+        ],
+        [
+          0.0492,
+          0.068
+        ]
+      ]
+    },
+    {
+      "pair": "sepal length \u00d7 petal length",
+      "class": "setosa",
+      "mean": [
+        4.983,
+        1.471
+      ],
+      "cov": [
+        [
+          0.1173,
+          0.0233
+        ],
+        [
+          0.0233,
+          0.0239
+        ]
+      ]
+    },
+    {
+      "pair": "sepal length \u00d7 petal length",
+      "class": "versicolor",
+      "mean": [
+        5.96,
+        4.311
+      ],
+      "cov": [
+        [
+          0.2872,
+          0.2149
+        ],
+        [
+          0.2149,
+          0.2516
+        ]
+      ]
+    },
+    {
+      "pair": "sepal length \u00d7 petal length",
+      "class": "virginica",
+      "mean": [
+        6.643,
+        5.631
+      ],
+      "cov": [
+        [
+          0.459,
+          0.3377
+        ],
+        [
+          0.3377,
+          0.3169
+        ]
+      ]
+    },
+    {
+      "pair": "sepal width \u00d7 petal width",
+      "class": "setosa",
+      "mean": [
+        3.409,
+        0.229
+      ],
+      "cov": [
+        [
+          0.1179,
+          0.0106
+        ],
+        [
+          0.0106,
+          0.0068
+        ]
+      ]
+    },
+    {
+      "pair": "sepal width \u00d7 petal width",
+      "class": "versicolor",
+      "mean": [
+        2.806,
+        1.343
+      ],
+      "cov": [
+        [
+          0.09,
+          0.043
+        ],
+        [
+          0.043,
+          0.0419
+        ]
+      ]
+    },
+    {
+      "pair": "sepal width \u00d7 petal width",
+      "class": "virginica",
+      "mean": [
+        2.989,
+        2.071
+      ],
+      "cov": [
+        [
+          0.1299,
+          0.0508
+        ],
+        [
+          0.0508,
+          0.068
+        ]
+      ]
+    }
+  ],
+  "q1_qda_test_error": {
+    "petal length \u00d7 petal width": 0.022222222222222223,
+    "sepal length \u00d7 petal length": 0.08888888888888889,
+    "sepal width \u00d7 petal width": 0.08888888888888889
+  },
+  "q1_qda_detail": {
+    "petal length \u00d7 petal width": {
+      "test error": 0.0222,
+      "train error": 0.0286,
+      "test log-loss": 0.0761
+    },
+    "sepal length \u00d7 petal length": {
+      "test error": 0.0889,
+      "train error": 0.0571,
+      "test log-loss": 0.1557
+    },
+    "sepal width \u00d7 petal width": {
+      "test error": 0.0889,
+      "train error": 0.019,
+      "test log-loss": 0.2601
+    }
+  },
+  "q1_best_pair": [
+    "petal length",
+    "petal width"
+  ],
+  "q1_lda_vs_qda": {
+    "QDA": {
+      "test error": 0.0222,
+      "train error": 0.0286,
+      "test log-loss": 0.0761,
+      "parameters": 15.0
+    },
+    "LDA": {
+      "test error": 0.0444,
+      "train error": 0.0286,
+      "test log-loss": 0.1474,
+      "parameters": 9.0
+    }
+  },
+  "q1_lda_shared_cov": [
+    [
+      0.1918,
+      0.0419
+    ],
+    [
+      0.0419,
+      0.0378
+    ]
+  ],
+  "q2_mle": [
+    {
+      "class": "setosa",
+      "prior": 0.3333333333333333,
+      "mean": [
+        1.471,
+        0.229
+      ],
+      "cov": [
+        [
+          0.0232,
+          0.0034
+        ],
+        [
+          0.0034,
+          0.0066
+        ]
+      ]
+    },
+    {
+      "class": "versicolor",
+      "prior": 0.3333333333333333,
+      "mean": [
+        4.311,
+        1.343
+      ],
+      "cov": [
+        [
+          0.2444,
+          0.0747
+        ],
+        [
+          0.0747,
+          0.0407
+        ]
+      ]
+    },
+    {
+      "class": "virginica",
+      "prior": 0.3333333333333333,
+      "mean": [
+        5.631,
+        2.071
+      ],
+      "cov": [
+        [
+          0.3079,
+          0.0478
+        ],
+        [
+          0.0478,
+          0.066
+        ]
+      ]
+    }
+  ],
+  "q2_test_error": {
+    "scratch Gaussian Bayes (MLE)": 0.022222222222222223,
+    "sklearn QDA (Q1)": 0.022222222222222223
+  },
+  "q2_agreement_with_qda": 1.0,
+  "q3_train_loglik_mle": -19372938.12460379,
+  "q3_zero_fraction": 0.83593351637576,
+  "q3_no_smoothing": {
+    "test_docs_all_classes_zero": 0.9271152564956695,
+    "test_acc": 0.09460359760159893
+  },
+  "q3_train_loglik_laplace": -20205369.423298113,
+  "q3_test_acc": 0.7810792804796802,
+  "q3_per_class": {
+    "talk.religion.misc": 0.3546,
+    "comp.os.ms-windows.misc": 0.5294,
+    "misc.forsale": 0.5916,
+    "talk.politics.misc": 0.5935,
+    "sci.electronics": 0.659,
+    "comp.sys.mac.hardware": 0.7128,
+    "alt.atheism": 0.739,
+    "comp.graphics": 0.7609,
+    "comp.sys.ibm.pc.hardware": 0.7781,
+    "comp.windows.x": 0.7846,
+    "sci.med": 0.8244,
+    "sci.space": 0.8546,
+    "talk.politics.mideast": 0.8644,
+    "rec.sport.baseball": 0.869,
+    "rec.motorcycles": 0.8892,
+    "talk.politics.guns": 0.8929,
+    "rec.autos": 0.9013,
+    "sci.crypt": 0.9139,
+    "soc.religion.christian": 0.9472,
+    "rec.sport.hockey": 0.9549
+  },
+  "q3_alpha_sweep": {
+    "0.001": 0.7971,
+    "0.01": 0.8037,
+    "0.05": 0.8076,
+    "0.1": 0.8047,
+    "0.25": 0.8057,
+    "0.5": 0.7987,
+    "1.0": 0.7811,
+    "2.0": 0.7249
+  }
+}

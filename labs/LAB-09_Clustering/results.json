@@ -1,0 +1,138 @@
+{
+  "q1_pca_var": [
+    0.362,
+    0.1921
+  ],
+  "q1_k3": {
+    "sizes": [
+      51,
+      65,
+      62
+    ],
+    "ari_vs_cultivar": 0.8974949815093207,
+    "inertia": 1277.928488844642
+  },
+  "q1_silhouette": {
+    "2": 0.2683,
+    "3": 0.2849,
+    "4": 0.2533,
+    "5": 0.2354,
+    "6": 0.1947,
+    "7": 0.1936,
+    "8": 0.1856,
+    "9": 0.1402,
+    "10": 0.1451
+  },
+  "q1_inertia": {
+    "1": 2314.0,
+    "2": 1659.01,
+    "3": 1277.93,
+    "4": 1180.39,
+    "5": 1111.88,
+    "6": 1051.15,
+    "7": 997.19,
+    "8": 934.75,
+    "9": 890.65,
+    "10": 848.06
+  },
+  "q1_best": {
+    "silhouette_k": 3,
+    "elbow_k": 3
+  },
+  "q2c": {
+    "counts": [
+      7660,
+      8995,
+      4270,
+      4307,
+      8195,
+      7253,
+      6137,
+      6561,
+      2904,
+      3718
+    ],
+    "iterations": 41,
+    "converged": true,
+    "empty_clusters": 0,
+    "seconds": 5.2
+  },
+  "q2f": {
+    "counts": [
+      6380,
+      5228,
+      9534,
+      5194,
+      7306,
+      8010,
+      2542,
+      7620,
+      2356,
+      5830
+    ],
+    "iterations": 155,
+    "converged": true,
+    "empty_clusters": 0,
+    "seconds": 19.3
+  },
+  "q2h": {
+    "random init (c)": {
+      "SSE": 1923418.11,
+      "non-empty clusters": 10.0,
+      "iterations": 41.0,
+      "purity vs labels": 0.5556,
+      "ARI vs labels": 0.3423
+    },
+    "class init (f)": {
+      "SSE": 1919627.4728,
+      "non-empty clusters": 10.0,
+      "iterations": 155.0,
+      "purity vs labels": 0.6113,
+      "ARI vs labels": 0.4024
+    }
+  },
+  "q2_class_cluster_major": {
+    "0": "T-shirt/top",
+    "1": "Trouser",
+    "2": "Coat",
+    "3": "Dress",
+    "4": "Shirt",
+    "5": "Sandal",
+    "6": "Bag",
+    "7": "Sneaker",
+    "8": "Bag",
+    "9": "Ankle boot"
+  },
+  "q3_pca": {
+    "pc1": 0.279833529841787,
+    "pc2": 0.10833609089453489,
+    "cum50": 0.7847964688876248
+  },
+  "q3_silhouette": {
+    "2": 0.2648,
+    "3": 0.2469,
+    "4": 0.1333,
+    "5": 0.1318,
+    "6": 0.1089,
+    "7": 0.1394,
+    "8": 0.0961
+  },
+  "q3_n_communities": 2,
+  "q3_compare": {
+    "Agglomerative (Ward)": {
+      "silhouette": 0.2508992267616325,
+      "ARI vs tumour label": 0.06802828440810064,
+      "purity vs tumour label": 0.6306666666666667,
+      "cluster sizes": "[936, 2064]",
+      "seconds": 0.09
+    },
+    "k-means": {
+      "silhouette": 0.26477394357033435,
+      "ARI vs tumour label": 0.10084393275636605,
+      "purity vs tumour label": 0.659,
+      "cluster sizes": "[1115, 1885]",
+      "seconds": 0.05
+    }
+  },
+  "q3_ari_between_methods": 0.6268609626777091
+}

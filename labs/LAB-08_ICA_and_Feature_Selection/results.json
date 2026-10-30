@@ -1,0 +1,285 @@
+{
+  "q1_scratch": {
+    "iterations": [
+      3,
+      5,
+      2
+    ],
+    "abs_corr_with_true": [
+      0.99995,
+      0.99971,
+      0.99971
+    ],
+    "mixing_condition_number": 4.3112629625770404
+  },
+  "q1_fastica": {
+    "iterations": 3,
+    "abs_corr_with_true": [
+      0.99999,
+      0.99999,
+      0.99996
+    ]
+  },
+  "q1_compare": {
+    "source 1": {
+      "scratch ICA |r|": 1.0,
+      "FastICA |r|": 1.0,
+      "scratch SIR (dB)": 39.0809,
+      "FastICA SIR (dB)": 42.3998
+    },
+    "source 2": {
+      "scratch ICA |r|": 0.9997,
+      "FastICA |r|": 1.0,
+      "scratch SIR (dB)": 32.2921,
+      "FastICA SIR (dB)": 47.2517
+    },
+    "source 3": {
+      "scratch ICA |r|": 0.9997,
+      "FastICA |r|": 1.0,
+      "scratch SIR (dB)": 32.371,
+      "FastICA SIR (dB)": 40.7086
+    }
+  },
+  "q1_scratch_vs_fast_corr": [
+    0.999976,
+    0.99974,
+    0.999763
+  ],
+  "q2_sfs10": {
+    "cv_accuracy": 0.9384,
+    "features": [
+      "Gender",
+      "Customer Type",
+      "Type of Travel",
+      "Class",
+      "Inflight wifi service",
+      "Ease of Online booking",
+      "Gate location",
+      "Online boarding",
+      "Baggage handling",
+      "Inflight service"
+    ],
+    "seconds": 3.5
+  },
+  "q2_configs": {
+    "SFS": {
+      "forward": true,
+      "floating": false,
+      "CV accuracy (10 features)": 0.9384,
+      "fold scores": [
+        0.9396,
+        0.9406,
+        0.9352,
+        0.9382
+      ],
+      "seconds": 2.2
+    },
+    "SBS": {
+      "forward": false,
+      "floating": false,
+      "CV accuracy (10 features)": 0.9387,
+      "fold scores": [
+        0.9368,
+        0.9426,
+        0.9416,
+        0.9338
+      ],
+      "seconds": 5.6
+    },
+    "SFFS": {
+      "forward": true,
+      "floating": true,
+      "CV accuracy (10 features)": 0.9384,
+      "fold scores": [
+        0.9396,
+        0.9406,
+        0.9352,
+        0.9382
+      ],
+      "seconds": 3.6
+    },
+    "SBFS": {
+      "forward": false,
+      "floating": true,
+      "CV accuracy (10 features)": 0.9387,
+      "fold scores": [
+        0.9368,
+        0.9426,
+        0.9416,
+        0.9338
+      ],
+      "seconds": 9.9
+    }
+  },
+  "q2_config_features": {
+    "SFS": [
+      "Gender",
+      "Customer Type",
+      "Type of Travel",
+      "Class",
+      "Inflight wifi service",
+      "Ease of Online booking",
+      "Gate location",
+      "Online boarding",
+      "Baggage handling",
+      "Inflight service"
+    ],
+    "SBS": [
+      "Customer Type",
+      "Type of Travel",
+      "Class",
+      "Inflight wifi service",
+      "Gate location",
+      "Seat comfort",
+      "Inflight entertainment",
+      "Baggage handling",
+      "Checkin service",
+      "Inflight service"
+    ],
+    "SFFS": [
+      "Gender",
+      "Customer Type",
+      "Type of Travel",
+      "Class",
+      "Inflight wifi service",
+      "Ease of Online booking",
+      "Gate location",
+      "Online boarding",
+      "Baggage handling",
+      "Inflight service"
+    ],
+    "SBFS": [
+      "Customer Type",
+      "Type of Travel",
+      "Class",
+      "Inflight wifi service",
+      "Gate location",
+      "Seat comfort",
+      "Inflight entertainment",
+      "Baggage handling",
+      "Checkin service",
+      "Inflight service"
+    ]
+  },
+  "q2_common_features": [
+    "Baggage handling",
+    "Class",
+    "Customer Type",
+    "Gate location",
+    "Inflight service",
+    "Inflight wifi service",
+    "Type of Travel"
+  ],
+  "q2_k_curve": {
+    "1": {
+      "CV accuracy": 0.7876,
+      "added feature": "Online boarding"
+    },
+    "2": {
+      "CV accuracy": 0.8474,
+      "added feature": "Type of Travel"
+    },
+    "3": {
+      "CV accuracy": 0.8871,
+      "added feature": "Inflight wifi service"
+    },
+    "4": {
+      "CV accuracy": 0.9162,
+      "added feature": "Gate location"
+    },
+    "5": {
+      "CV accuracy": 0.9244,
+      "added feature": "Customer Type"
+    },
+    "6": {
+      "CV accuracy": 0.9356,
+      "added feature": "Baggage handling"
+    },
+    "7": {
+      "CV accuracy": 0.9398,
+      "added feature": "Inflight service"
+    },
+    "8": {
+      "CV accuracy": 0.9419,
+      "added feature": "Class"
+    },
+    "9": {
+      "CV accuracy": 0.9404,
+      "added feature": "Ease of Online booking"
+    },
+    "10": {
+      "CV accuracy": 0.9384,
+      "added feature": "Gender"
+    },
+    "11": {
+      "CV accuracy": 0.9367,
+      "added feature": "Seat comfort"
+    },
+    "12": {
+      "CV accuracy": 0.9352,
+      "added feature": "Cleanliness"
+    },
+    "13": {
+      "CV accuracy": 0.9341,
+      "added feature": "Inflight entertainment"
+    },
+    "14": {
+      "CV accuracy": 0.9342,
+      "added feature": "Checkin service"
+    },
+    "15": {
+      "CV accuracy": 0.9369,
+      "added feature": "On-board service"
+    },
+    "16": {
+      "CV accuracy": 0.9366,
+      "added feature": "Leg room service"
+    },
+    "17": {
+      "CV accuracy": 0.9357,
+      "added feature": "Food and drink"
+    },
+    "18": {
+      "CV accuracy": 0.9344,
+      "added feature": "Departure/Arrival time convenient"
+    },
+    "19": {
+      "CV accuracy": 0.9346,
+      "added feature": "Arrival Delay in Minutes"
+    },
+    "20": {
+      "CV accuracy": 0.9335,
+      "added feature": "Age"
+    },
+    "21": {
+      "CV accuracy": 0.9335,
+      "added feature": "Departure Delay in Minutes"
+    },
+    "22": {
+      "CV accuracy": 0.9312,
+      "added feature": "Flight Distance"
+    }
+  },
+  "q2_best_k": {
+    "k": 8,
+    "acc": 0.9419000000000001,
+    "acc_all": 0.9312499999999999
+  },
+  "q2_bonus": {
+    "features": [
+      "Online boarding",
+      "Type of Travel",
+      "Inflight wifi service",
+      "Gate location",
+      "Customer Type",
+      "Baggage handling",
+      "Inflight service",
+      "Class",
+      "Ease of Online booking",
+      "Gender"
+    ],
+    "cv_accuracy": 0.93855,
+    "same_set_as_mlxtend": true,
+    "seconds": 4.7
+  }
+}

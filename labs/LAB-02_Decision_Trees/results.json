@@ -1,0 +1,89 @@
+{
+  "q1_depth_sweep": [
+    {
+      "max_depth": 1,
+      "actual depth": 1,
+      "train acc": 0.7912,
+      "test acc": 0.7826
+    },
+    {
+      "max_depth": 2,
+      "actual depth": 2,
+      "train acc": 0.9707,
+      "test acc": 0.8986
+    },
+    {
+      "max_depth": 3,
+      "actual depth": 3,
+      "train acc": 0.989,
+      "test acc": 0.9565
+    },
+    {
+      "max_depth": 4,
+      "actual depth": 4,
+      "train acc": 0.9927,
+      "test acc": 0.9855
+    },
+    {
+      "max_depth": 5,
+      "actual depth": 5,
+      "train acc": 0.9927,
+      "test acc": 0.9855
+    },
+    {
+      "max_depth": 6,
+      "actual depth": 5,
+      "train acc": 0.9927,
+      "test acc": 0.9855
+    }
+  ],
+  "q1": {
+    "overall_acc": 0.9855072463768116,
+    "classwise_acc": {
+      "Adelie": 1.0,
+      "Chinstrap": 0.9285714285714286,
+      "Gentoo": 1.0
+    },
+    "depth": 5,
+    "thresholds": {
+      "bill_length_mm": 42.349999999999994,
+      "bill_depth_mm": 16.35,
+      "flipper_length_mm": 207.5,
+      "body_mass_g": 4362.5
+    }
+  },
+  "q2_best_params": {
+    "max_depth": 9,
+    "min_samples_leaf": 2,
+    "min_samples_split": 2
+  },
+  "q2_best_val_mse": 0.17458491892135608,
+  "q2": {
+    "cv_fold_mse": [
+      0.22611610143705188,
+      0.7711865003548843,
+      0.2769847890695576,
+      0.29729855269343514,
+      0.2880438941256829
+    ],
+    "cv_mean": 0.37192596753612234,
+    "cv_std": 0.2011411299425891,
+    "test_mse": 0.32803696487193373,
+    "n_leaves": 219,
+    "depth": 9,
+    "y_range": [
+      6.01,
+      43.1
+    ]
+  },
+  "q2_importance": {
+    "X1": 0.8966,
+    "X7": 0.065,
+    "X8": 0.0224,
+    "X3": 0.0078,
+    "X2": 0.0078,
+    "X6": 0.0003,
+    "X4": 0.0001,
+    "X5": 0.0
+  }
+}

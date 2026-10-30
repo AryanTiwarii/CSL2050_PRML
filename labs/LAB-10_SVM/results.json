@@ -1,0 +1,373 @@
+{
+  "sklearn_version": "1.6.1",
+  "grid": [
+    {
+      "kernel": "Linear",
+      "C": 0.001,
+      "train acc": 0.887,
+      "test acc": 0.8892,
+      "support vectors": 1595,
+      "seconds": 0.17
+    },
+    {
+      "kernel": "Linear",
+      "C": 0.01,
+      "train acc": 0.9171,
+      "test acc": 0.9218,
+      "support vectors": 990,
+      "seconds": 0.11
+    },
+    {
+      "kernel": "Linear",
+      "C": 0.1,
+      "train acc": 0.9335,
+      "test acc": 0.9341,
+      "support vectors": 758,
+      "seconds": 0.12
+    },
+    {
+      "kernel": "Linear",
+      "C": 1.0,
+      "train acc": 0.9342,
+      "test acc": 0.9305,
+      "support vectors": 659,
+      "seconds": 0.19
+    },
+    {
+      "kernel": "Linear",
+      "C": 10.0,
+      "train acc": 0.9354,
+      "test acc": 0.9341,
+      "support vectors": 637,
+      "seconds": 0.75
+    },
+    {
+      "kernel": "Linear",
+      "C": 100.0,
+      "train acc": 0.9354,
+      "test acc": 0.9356,
+      "support vectors": 630,
+      "seconds": 5.52
+    },
+    {
+      "kernel": "Linear",
+      "C": 1000.0,
+      "train acc": 0.9342,
+      "test acc": 0.9348,
+      "support vectors": 620,
+      "seconds": 38.44
+    },
+    {
+      "kernel": "Quadratic",
+      "C": 0.001,
+      "train acc": 0.6115,
+      "test acc": 0.6119,
+      "support vectors": 2543,
+      "seconds": 0.3
+    },
+    {
+      "kernel": "Quadratic",
+      "C": 0.01,
+      "train acc": 0.846,
+      "test acc": 0.8465,
+      "support vectors": 2000,
+      "seconds": 0.24
+    },
+    {
+      "kernel": "Quadratic",
+      "C": 0.1,
+      "train acc": 0.9199,
+      "test acc": 0.9218,
+      "support vectors": 1162,
+      "seconds": 0.14
+    },
+    {
+      "kernel": "Quadratic",
+      "C": 1.0,
+      "train acc": 0.9447,
+      "test acc": 0.9392,
+      "support vectors": 767,
+      "seconds": 0.1
+    },
+    {
+      "kernel": "Quadratic",
+      "C": 10.0,
+      "train acc": 0.959,
+      "test acc": 0.937,
+      "support vectors": 616,
+      "seconds": 0.1
+    },
+    {
+      "kernel": "Quadratic",
+      "C": 100.0,
+      "train acc": 0.9767,
+      "test acc": 0.9327,
+      "support vectors": 569,
+      "seconds": 0.15
+    },
+    {
+      "kernel": "Quadratic",
+      "C": 1000.0,
+      "train acc": 0.9891,
+      "test acc": 0.9175,
+      "support vectors": 496,
+      "seconds": 0.33
+    },
+    {
+      "kernel": "RBF",
+      "C": 0.001,
+      "train acc": 0.6059,
+      "test acc": 0.6061,
+      "support vectors": 2539,
+      "seconds": 0.63
+    },
+    {
+      "kernel": "RBF",
+      "C": 0.01,
+      "train acc": 0.7016,
+      "test acc": 0.7009,
+      "support vectors": 2545,
+      "seconds": 0.63
+    },
+    {
+      "kernel": "RBF",
+      "C": 0.1,
+      "train acc": 0.9102,
+      "test acc": 0.9088,
+      "support vectors": 1553,
+      "seconds": 0.39
+    },
+    {
+      "kernel": "RBF",
+      "C": 1.0,
+      "train acc": 0.945,
+      "test acc": 0.9341,
+      "support vectors": 989,
+      "seconds": 0.25
+    },
+    {
+      "kernel": "RBF",
+      "C": 10.0,
+      "train acc": 0.9649,
+      "test acc": 0.9392,
+      "support vectors": 804,
+      "seconds": 0.22
+    },
+    {
+      "kernel": "RBF",
+      "C": 100.0,
+      "train acc": 0.9845,
+      "test acc": 0.9218,
+      "support vectors": 718,
+      "seconds": 0.21
+    },
+    {
+      "kernel": "RBF",
+      "C": 1000.0,
+      "train acc": 0.9929,
+      "test acc": 0.9117,
+      "support vectors": 649,
+      "seconds": 0.23
+    }
+  ],
+  "best": {
+    "Linear": {
+      "best C (test)": 100.0,
+      "train acc": 0.9354,
+      "test acc": 0.9356,
+      "support vectors": 630,
+      "C chosen by 5-fold CV": 100,
+      "CV acc": 0.9261,
+      "test acc (CV-chosen C)": 0.9356
+    },
+    "Quadratic": {
+      "best C (test)": 1.0,
+      "train acc": 0.9447,
+      "test acc": 0.9392,
+      "support vectors": 767,
+      "C chosen by 5-fold CV": 1,
+      "CV acc": 0.932,
+      "test acc (CV-chosen C)": 0.9392
+    },
+    "RBF": {
+      "best C (test)": 10.0,
+      "train acc": 0.9649,
+      "test acc": 0.9392,
+      "support vectors": 804,
+      "C chosen by 5-fold CV": 10,
+      "CV acc": 0.9314,
+      "test acc (CV-chosen C)": 0.9392
+    }
+  },
+  "detail": {
+    "Linear": {
+      "precision (spam)": 0.9316888045540797,
+      "recall (spam)": 0.9025735294117647,
+      "ham flagged as spam": 36.0,
+      "spam missed": 53.0
+    },
+    "Quadratic": {
+      "precision (spam)": 0.9372623574144486,
+      "recall (spam)": 0.90625,
+      "ham flagged as spam": 33.0,
+      "spam missed": 51.0
+    },
+    "RBF": {
+      "precision (spam)": 0.9339622641509434,
+      "recall (spam)": 0.9099264705882353,
+      "ham flagged as spam": 35.0,
+      "spam missed": 49.0
+    }
+  },
+  "log_grid": [
+    {
+      "kernel": "Linear",
+      "C": 0.001,
+      "train acc": 0.9273,
+      "test acc": 0.9377
+    },
+    {
+      "kernel": "Linear",
+      "C": 0.01,
+      "train acc": 0.9391,
+      "test acc": 0.945
+    },
+    {
+      "kernel": "Linear",
+      "C": 0.1,
+      "train acc": 0.9422,
+      "test acc": 0.9479
+    },
+    {
+      "kernel": "Linear",
+      "C": 1.0,
+      "train acc": 0.9422,
+      "test acc": 0.9464
+    },
+    {
+      "kernel": "Linear",
+      "C": 10.0,
+      "train acc": 0.9413,
+      "test acc": 0.9457
+    },
+    {
+      "kernel": "Linear",
+      "C": 100.0,
+      "train acc": 0.9419,
+      "test acc": 0.9464
+    },
+    {
+      "kernel": "Linear",
+      "C": 1000.0,
+      "train acc": 0.9425,
+      "test acc": 0.9464
+    },
+    {
+      "kernel": "Quadratic",
+      "C": 0.001,
+      "train acc": 0.6686,
+      "test acc": 0.6799
+    },
+    {
+      "kernel": "Quadratic",
+      "C": 0.01,
+      "train acc": 0.9096,
+      "test acc": 0.9232
+    },
+    {
+      "kernel": "Quadratic",
+      "C": 0.1,
+      "train acc": 0.9404,
+      "test acc": 0.9471
+    },
+    {
+      "kernel": "Quadratic",
+      "C": 1.0,
+      "train acc": 0.9562,
+      "test acc": 0.95
+    },
+    {
+      "kernel": "Quadratic",
+      "C": 10.0,
+      "train acc": 0.9773,
+      "test acc": 0.9471
+    },
+    {
+      "kernel": "Quadratic",
+      "C": 100.0,
+      "train acc": 0.9891,
+      "test acc": 0.937
+    },
+    {
+      "kernel": "Quadratic",
+      "C": 1000.0,
+      "train acc": 0.9957,
+      "test acc": 0.9196
+    },
+    {
+      "kernel": "RBF",
+      "C": 0.001,
+      "train acc": 0.6059,
+      "test acc": 0.6061
+    },
+    {
+      "kernel": "RBF",
+      "C": 0.01,
+      "train acc": 0.822,
+      "test acc": 0.8356
+    },
+    {
+      "kernel": "RBF",
+      "C": 0.1,
+      "train acc": 0.9311,
+      "test acc": 0.9385
+    },
+    {
+      "kernel": "RBF",
+      "C": 1.0,
+      "train acc": 0.9565,
+      "test acc": 0.9464
+    },
+    {
+      "kernel": "RBF",
+      "C": 10.0,
+      "train acc": 0.9832,
+      "test acc": 0.9551
+    },
+    {
+      "kernel": "RBF",
+      "C": 100.0,
+      "train acc": 0.9935,
+      "test acc": 0.9392
+    },
+    {
+      "kernel": "RBF",
+      "C": 1000.0,
+      "train acc": 0.996,
+      "test acc": 0.9319
+    }
+  ],
+  "log_compare": {
+    "Linear": {
+      "standardised: best C": 100.0,
+      "standardised: test acc": 0.9356,
+      "log + standardised: best C": 0.1,
+      "log + standardised: train acc": 0.9422,
+      "log + standardised: test acc": 0.9479
+    },
+    "Quadratic": {
+      "standardised: best C": 1.0,
+      "standardised: test acc": 0.9392,
+      "log + standardised: best C": 1.0,
+      "log + standardised: train acc": 0.9562,
+      "log + standardised: test acc": 0.95
+    },
+    "RBF": {
+      "standardised: best C": 10.0,
+      "standardised: test acc": 0.9392,
+      "log + standardised: best C": 10.0,
+      "log + standardised: train acc": 0.9832,
+      "log + standardised: test acc": 0.9551
+    }
+  }
+}

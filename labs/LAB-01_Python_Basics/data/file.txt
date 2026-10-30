@@ -1,0 +1,3 @@
+Hello, this is Aryan Tiwari (B20AI056).
+This file is read line by line and converted into a list.
+PRML Lab 1 - Winter 2022
